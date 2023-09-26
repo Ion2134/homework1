@@ -7,3 +7,9 @@ a bunch of merge conflicts if files were edited in the original branch that
 were also edited in the merge branch. Rebase, on the other hand, moves the 
 entire branch to begin on the end of the rebased branch, which can lead to issues
 since you are changing the git history itself.
+
+What is a remote repository?
+
+A remote repository is the repository that is seen by multiple collaborators on a project,
+and is not hosted locally. They usually contain the finalized changes for features as well 
+as the most stable branch of the project.
